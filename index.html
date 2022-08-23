@@ -84,14 +84,16 @@
             <div class="col p-2">
                 <div class="card">
                     <div class="card-body text-center">
-                        <h3>Selected - V</h3>
-                        <ol id="player-list" class="list-group">
-                            <!-- <li class="list-group-item"></li>
-                            <li class="list-group-item"></li>
-                            <li class="list-group-item"></li>
-                            <li class="list-group-item"></li>
-                            <li class="list-group-item"></li> -->
-                        </ol>
+                        <table class="table">
+                            <thead>
+                                <h3>Selected - V</h3>
+                            </thead>
+                            <tbody id="player-list">
+                                <tr>
+                                    <!-- <td>hello JS</td> -->
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -106,13 +108,14 @@
                             <li class="list-group-item">
                                 <div class="input-group mb-3">
                                     <span class="input-group-text">Per Player :</span>
-                                    <input id="per-player" type="text" class="form-control" placeholder="$1000" aria-label="Username"
-                                        aria-describedby="basic-addon1">
+                                    <input id="per-player" type="text" class="form-control" placeholder="$1000"
+                                        aria-label="Username" aria-describedby="basic-addon1">
                                 </div>
                                 <button id="calculate" class="btn btn-primary">Calculate</button>
                             </li>
 
-                            <li class="list-group-item text-center">Player Expenses : $<span id="player-expenses">0000</span></li>
+                            <li class="list-group-item text-center">Player Expenses : $<span
+                                    id="player-expenses">0000</span></li>
 
                             <div class="input-group mb-3">
                                 <span class="input-group-text">Manager :</span>
@@ -126,7 +129,8 @@
                                     aria-describedby="basic-addon1" id="choach">
                             </div>
 
-                            <li class="list-group-item"><button class="btn btn-primary" id="calculate-total">Claculate Total</button></li>
+                            <li class="list-group-item"><button class="btn btn-primary" id="calculate-total">Claculate
+                                    Total</button></li>
                             <li class="list-group-item text-center">Total : $<span id="total">0000</span></li>
                         </ul>
                     </div>
